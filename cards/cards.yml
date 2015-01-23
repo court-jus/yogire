@@ -1,0 +1,14 @@
+1:
+    PE: |
+        For each card you draw,
+        draw another one
+        draw another one
+    OSE: |
+        For each card you draw,
+        draw another one
+    EE: 'All Enemy STR +1'
+2:
+    OSE: 'Simple OSE'
+    PE: 'Simple PE'
+    EE: 'Simple EE'
+
