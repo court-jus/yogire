@@ -15,6 +15,8 @@ BLACK = Color('#000')
 
 def drawText(draw, txt, x, y):
     draw.line([0,y],[750,y])
+    if not txt:
+        return
     nlines = len([t for t in txt.split('\n') if t])
     try:
         shift = [0, 0.5, 1.2, 2.0, 2.5, ][nlines] * FSIZE
