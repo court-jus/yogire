@@ -8,6 +8,7 @@ from wand.image import Image
 from wand.drawing import Drawing
 from wand.color import Color
 import yaml
+from random import randrange
 
 with open('attrs.yml', 'r') as fp:
     attrs = yaml.load(fp)
@@ -49,4 +50,27 @@ EE = """
 17 18 19
 17 18 19
 """.split()
-print(len(OSE), len(PE), len(EE))
+def tofrdct(lst):
+    r = {}
+    for i in lst:
+        r.setdefault(lst.count(i), []).append(i)
+    return r
+fOSE = tofrdct(OSE)
+fPE = tofrdct(PE)
+fEE = tofrdct(EE)
+
+maxfr = (max([max(f.keys()) for f in [fOSE, fPE, fEE]]))
+for i in range(1, maxfr+1):
+    while len(fOSE[i]) > 0:
+        ose = fOSE[i].pop()
+        j = 0
+        while len(fPE.get(j, [])) == 0:
+            j += 1
+        ipe = randrange(0, len(fPE[j]))
+        pe = fPE[j].pop(ipe)
+        j = 0
+        while len(fEE.get(j, [])) == 0:
+            j += 1
+        iee = randrange(0, len(fEE[j]))
+        ee = fEE[j].pop(iee)
+        print(" ".join([ose, pe, ee]))
