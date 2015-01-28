@@ -1,0 +1,667 @@
+!!python/unicode 'EE':
+  ? !!python/tuple ['All Ennemy: Str +2', "When you draw\n -> discard 1"]
+  : 1
+  ? !!python/tuple [Hand Limit -1, 'All Ennemy: Str +2']
+  : -1
+  ? !!python/tuple [Hand Limit -1, "When you draw\n -> discard 1"]
+  : -1
+  ? !!python/tuple ["When you play a\npermanent card\n -> discard 1", "When you draw\n\
+      \ -> discard 1"]
+  : 1
+!!python/unicode 'OSE':
+  ? !!python/tuple [Attack 1, Attack 2]
+  : 1
+  ? !!python/tuple [Attack 2, Attack 2]
+  : -1
+  ? !!python/tuple [Attack 2, Attack 3]
+  : 1
+  ? !!python/tuple [Attack 2, Draw 2]
+  : 1
+  ? !!python/tuple [Attack 3, Attack 1]
+  : -1
+  ? !!python/tuple [Attack 3, Draw 1]
+  : -1
+  ? !!python/tuple [Attack 4, Attack 2]
+  : -1
+  ? !!python/tuple [Attack 4, Attack 3]
+  : -1
+  ? !!python/tuple [Attack 4, 'Remove any permanent
+
+      card to destroy an
+
+      ennemy with Str < 5']
+  : -1
+  ? !!python/tuple [Attack 4, 'Search ennemy deck for
+
+      a card to put in hand
+
+      than shuffle ennemy
+
+      deck']
+  : 1
+  ? !!python/tuple [Attack 4, Visibility -1]
+  : -1
+  ? !!python/tuple ['Choose a card in your
+
+      discard to take in hand.
+
+      Then shuffle the discard.', Attack 2]
+  : -1
+  ? !!python/tuple ['Choose a card in your
+
+      discard to take in hand.
+
+      Then shuffle the discard.', Attack 4]
+  : 1
+  ? !!python/tuple ['Choose a card in your
+
+      discard to take in hand.
+
+      Then shuffle the discard.', 'Remove any permanent
+
+      card to destroy an
+
+      ennemy with Str < 5']
+  : -1
+  ? !!python/tuple ['Choose a card in your
+
+      discard to take in hand.
+
+      Then shuffle the discard.', Visibility -1]
+  : -1
+  ? !!python/tuple ['Choose a card in your
+
+      laboratory then shuffle
+
+      it', Attack 2]
+  : -1
+  ? !!python/tuple ['Choose a card in your
+
+      laboratory then shuffle
+
+      it', Attack 3]
+  : -1
+  ? !!python/tuple ['Choose a card in your
+
+      laboratory then shuffle
+
+      it', 'Choose a card in your
+
+      discard to take in hand.
+
+      Then shuffle the discard.']
+  : 1
+  ? !!python/tuple ['Choose a card in your
+
+      laboratory then shuffle
+
+      it', 'Remove any permanent
+
+      card to destroy an
+
+      ennemy with Str < 5']
+  : -1
+  ? !!python/tuple ['Choose a card in your
+
+      laboratory then shuffle
+
+      it', Visibility -1]
+  : -1
+  ? !!python/tuple ['Destroy the smallest
+
+      ennemy', Attack 1]
+  : -1
+  ? !!python/tuple ['Destroy the smallest
+
+      ennemy', Attack 2]
+  : -1
+  ? !!python/tuple ['Destroy the smallest
+
+      ennemy', Attack 3]
+  : 1
+  ? !!python/tuple ['Destroy the smallest
+
+      ennemy', Draw 2]
+  : -1
+  ? !!python/tuple [Draw 1, Attack 1]
+  : 1
+  ? !!python/tuple [Draw 1, Attack 2]
+  : 1
+  ? !!python/tuple [Draw 1, Draw 1]
+  : -1
+  ? !!python/tuple [Draw 1, Draw 2]
+  : 1
+  ? !!python/tuple [Draw 2, Attack 1]
+  : -1
+  ? !!python/tuple [Draw 2, Attack 3]
+  : 1
+  ? !!python/tuple ['Look at first ennemy
+
+      card and choose to put it
+
+      back on the deck or to
+
+      the bottom', Attack 3]
+  : 1
+  ? !!python/tuple ['Look at first ennemy
+
+      card and choose to put it
+
+      back on the deck or to
+
+      the bottom', Draw 2]
+  : -1
+  ? !!python/tuple ['Look at first ennemy
+
+      card and choose to put it
+
+      back on the deck or to
+
+      the bottom', 'Play with another card.
+
+      Pay this card''s cost but
+
+      not the other one''s.']
+  : 1
+  ? !!python/tuple ['Look at first ennemy
+
+      card and choose to put it
+
+      back on the deck or to
+
+      the bottom', Visibility -1]
+  : -1
+  ? !!python/tuple ['Play with another card.
+
+      Pay this card''s cost but
+
+      not the other one''s.', Attack 3]
+  : -1
+  ? !!python/tuple ['Play with another card.
+
+      Pay this card''s cost but
+
+      not the other one''s.', 'Choose a card in your
+
+      laboratory then shuffle
+
+      it']
+  : 1
+  ? !!python/tuple ['Play with another card.
+
+      Pay this card''s cost but
+
+      not the other one''s.', Draw 2]
+  : -1
+  ? !!python/tuple ['Play with another card.
+
+      Pay this card''s cost but
+
+      not the other one''s.', 'Remove any permanent
+
+      card to destroy an
+
+      ennemy with Str < 5']
+  : -1
+  ? !!python/tuple ['Play with another card.
+
+      Pay this card''s cost but
+
+      not the other one''s.', Visibility -1]
+  : -1
+  ? !!python/tuple ['Remove any permanent
+
+      card to destroy an
+
+      ennemy with Str < 5', Attack 2]
+  : -1
+  ? !!python/tuple ['Remove any permanent
+
+      card to destroy an
+
+      ennemy with Str < 5', Attack 3]
+  : -1
+  ? !!python/tuple ['Remove any permanent
+
+      card to destroy an
+
+      ennemy with Str < 5', 'Destroy the smallest
+
+      ennemy']
+  : -1
+  ? !!python/tuple ['Search ennemy deck for
+
+      a card to put in hand
+
+      than shuffle ennemy
+
+      deck', Attack 3]
+  : -1
+  ? !!python/tuple ['Search ennemy deck for
+
+      a card to put in hand
+
+      than shuffle ennemy
+
+      deck', 'Destroy the smallest
+
+      ennemy']
+  : -1
+  ? !!python/tuple ['Search ennemy deck for
+
+      a card to put in hand
+
+      than shuffle ennemy
+
+      deck', 'Remove any permanent
+
+      card to destroy an
+
+      ennemy with Str < 5']
+  : -1
+  ? !!python/tuple ['Search ennemy deck for
+
+      a card to put in hand
+
+      than shuffle ennemy
+
+      deck', Visibility -1]
+  : -1
+  ? !!python/tuple ['Send an ennemy back to
+
+      ennemy deck then
+
+      shuffle ennemy deck.', Attack 2]
+  : -1
+  ? !!python/tuple ['Send an ennemy back to
+
+      ennemy deck then
+
+      shuffle ennemy deck.', Attack 3]
+  : -1
+  ? !!python/tuple ['Send an ennemy back to
+
+      ennemy deck then
+
+      shuffle ennemy deck.', Attack 4]
+  : 1
+  ? !!python/tuple ['Send an ennemy back to
+
+      ennemy deck then
+
+      shuffle ennemy deck.', 'Choose a card in your
+
+      discard to take in hand.
+
+      Then shuffle the discard.']
+  : -1
+  ? !!python/tuple [Visibility -1, Attack 2]
+  : -1
+  ? !!python/tuple [Visibility -1, Attack 3]
+  : 1
+  ? !!python/tuple [Visibility -1, 'Destroy the smallest
+
+      ennemy']
+  : -1
+  ? !!python/tuple [Visibility -1, Visibility -1]
+  : -1
+  ? !!python/tuple [Visibility -2, Attack 2]
+  : -1
+  ? !!python/tuple [Visibility -2, Attack 4]
+  : -1
+  ? !!python/tuple [Visibility -2, 'Remove any permanent
+
+      card to destroy an
+
+      ennemy with Str < 5']
+  : -1
+  ? !!python/tuple [Visibility -2, 'Search ennemy deck for
+
+      a card to put in hand
+
+      than shuffle ennemy
+
+      deck']
+  : 1
+  ? !!python/tuple [Visibility -2, 'Send an ennemy back to
+
+      ennemy deck then
+
+      shuffle ennemy deck.']
+  : -1
+!!python/unicode 'PE':
+  ? !!python/tuple ['Before drawing :
+
+      sort 3', Datacenter CU4]
+  : -1
+  ? !!python/tuple ['Before drawing :
+
+      sort 3', 'Discard 1 card to
+
+      gain Attack 1']
+  : -1
+  ? !!python/tuple ['Before drawing :
+
+      sort 3', 'Discard this permanent
+
+      to cancel a bad effect
+
+      once']
+  : 1
+  ? !!python/tuple ['Before drawing :
+
+      sort 3', 'You can discard
+
+      a permanent card']
+  : 1
+  ? !!python/tuple [Datacenter CU3, 'Discard 1 card to
+
+      gain Attack 1']
+  : 1
+  ? !!python/tuple [Datacenter CU3, "When you pay\n -> draw a card"]
+  : 1
+  ? !!python/tuple [Datacenter CU4, Datacenter CU3]
+  : -1
+  ? !!python/tuple [Datacenter CU4, 'Discard 1 card to
+
+      gain Attack 1']
+  : -1
+  ? !!python/tuple [Datacenter CU4, 'Discard this permanent
+
+      to cancel a bad effect
+
+      once']
+  : 1
+  ? !!python/tuple [Datacenter CU4, Hand Limit +1]
+  : -1
+  ? !!python/tuple [Datacenter CU4, "When you discard\n -> draw"]
+  : -1
+  ? !!python/tuple [Datacenter CU4, 'You can discard
+
+      a permanent card']
+  : 1
+  ? !!python/tuple [Datacenter CU5, 'Discard this permanent
+
+      to cancel a bad effect
+
+      once']
+  : -1
+  ? !!python/tuple [Datacenter CU5, "When you pay\n -> draw a card"]
+  : -1
+  ? !!python/tuple [Datacenter CU6, 'Next destroyed ennemy
+
+      goes to your discard.
+
+      Then discard this.']
+  : -1
+  ? !!python/tuple [Datacenter CU6, 'When an ennemy is
+
+      activated: destroy
+
+      the smalles ennemy']
+  : -1
+  ? !!python/tuple [Datacenter CU6, "When you draw\n -> draw again"]
+  : -1
+  ? !!python/tuple [Datacenter CU6, 'You can discard
+
+      a permanent card']
+  : -1
+  ? !!python/tuple ['Discard 1 card to
+
+      gain Attack 1', Datacenter CU5]
+  : 1
+  ? !!python/tuple ['Discard 1 card to
+
+      gain Attack 1', "When you pay\n -> draw a card"]
+  : 1
+  ? !!python/tuple ['Discard this permanent
+
+      to cancel a bad effect
+
+      once', 'Discard 1 card to
+
+      gain Attack 1']
+  : -1
+  ? !!python/tuple ['Discard this permanent
+
+      to cancel a bad effect
+
+      once', "When you pay\n -> draw a card"]
+  : 1
+  ? !!python/tuple ['Discard this permanent
+
+      to cancel a bad effect
+
+      once', 'You can discard
+
+      a permanent card']
+  : -1
+  ? !!python/tuple [Hand Limit +1, Datacenter CU3]
+  : 1
+  ? !!python/tuple [Hand Limit +1, 'Discard 1 card to
+
+      gain Attack 1']
+  : 1
+  ? !!python/tuple [Hand Limit +1, 'Discard this permanent
+
+      to cancel a bad effect
+
+      once']
+  : 1
+  ? !!python/tuple [Hand Limit +1, "When you pay\n -> draw a card"]
+  : 1
+  ? !!python/tuple ["New ennemy ?\n -> draw 2, choose 1\n(other to bottom)", Datacenter
+      CU5]
+  : 1
+  ? !!python/tuple ["New ennemy ?\n -> draw 2, choose 1\n(other to bottom)", 'Discard
+      this permanent
+
+      to cancel a bad effect
+
+      once']
+  : -1
+  ? !!python/tuple ["New ennemy ?\n -> draw 2, choose 1\n(other to bottom)", "When\
+      \ you pay\n -> draw a card"]
+  : -1
+  ? !!python/tuple ["New ennemy ?\n -> draw 2, choose 1\n(other to bottom)", 'When
+      you pay,
+
+      cost -1 (minimum 1)
+
+      but discard 1']
+  : 1
+  ? !!python/tuple ["New ennemy ?\n -> draw 2, choose 1\n(other to bottom)", 'You
+      can discard a
+
+      permanent card']
+  : -1
+  ? !!python/tuple ['Next destroyed ennemy
+
+      goes to your discard.
+
+      Then discard this.', Datacenter CU5]
+  : 1
+  ? !!python/tuple ['Next destroyed ennemy
+
+      goes to your discard.
+
+      Then discard this.', 'Discard this permanent
+
+      to cancel a bad effect
+
+      once']
+  : -1
+  ? !!python/tuple ['Next destroyed ennemy
+
+      goes to your discard.
+
+      Then discard this.', 'When you draw,
+
+      gain Attack 1']
+  : -1
+  ? !!python/tuple ['Next destroyed ennemy
+
+      goes to your discard.
+
+      Then discard this.', "When you pay\n -> draw a card"]
+  : -1
+  ? !!python/tuple ['When an ennemy is
+
+      activated: destroy
+
+      the smalles ennemy', Datacenter CU5]
+  : -1
+  ? !!python/tuple ['When an ennemy is
+
+      activated: destroy
+
+      the smalles ennemy', "When you draw\n -> draw again"]
+  : -1
+  ? !!python/tuple ['When an ennemy is
+
+      activated: destroy
+
+      the smalles ennemy', 'You can discard
+
+      a permanent card']
+  : -1
+  ? !!python/tuple ["When you discard\n -> draw", 'Discard 1 card to
+
+      gain Attack 1']
+  : -1
+  ? !!python/tuple ["When you discard\n -> draw", "When you pay\n -> draw a card"]
+  : 1
+  ? !!python/tuple ["When you discard\n -> draw", 'You can discard
+
+      a permanent card']
+  : 1
+  ? !!python/tuple ["When you draw\n -> draw again", Datacenter CU5]
+  : -1
+  ? !!python/tuple ["When you draw\n -> draw again", "When you pay\n -> draw a card"]
+  : -1
+  ? !!python/tuple ["When you draw\n -> draw again", 'You can discard
+
+      a permanent card']
+  : -1
+  ? !!python/tuple ['When you draw,
+
+      gain Attack 1', Datacenter CU5]
+  : 1
+  ? !!python/tuple ['When you draw,
+
+      gain Attack 1', "When you draw\n -> draw again"]
+  : 1
+  ? !!python/tuple ['When you draw,
+
+      gain Attack 1', "When you pay\n -> draw a card"]
+  : -1
+  ? !!python/tuple ['When you pay,
+
+      cost -1 (minimum 1)
+
+      but discard 1', 'Next destroyed ennemy
+
+      goes to your discard.
+
+      Then discard this.']
+  : 1
+  ? !!python/tuple ['When you pay,
+
+      cost -1 (minimum 1)
+
+      but discard 1', 'When you draw,
+
+      gain Attack 1']
+  : -1
+  ? !!python/tuple ['When you pay,
+
+      cost -1 (minimum 1)
+
+      but discard 1', "When you pay\n -> draw a card"]
+  : -1
+  ? !!python/tuple ['When you pay,
+
+      cost -1 (minimum 1)
+
+      but discard 1', 'You can discard
+
+      a permanent card']
+  : -1
+  ? !!python/tuple ['You can discard
+
+      a permanent card', 'Discard 1 card to
+
+      gain Attack 1']
+  : -1
+  ? !!python/tuple ['You can discard
+
+      a permanent card', "When you pay\n -> draw a card"]
+  : 1
+  ? !!python/tuple ['You can discard a
+
+      permanent card', Datacenter CU3]
+  : -1
+  ? !!python/tuple ['You can discard a
+
+      permanent card', Datacenter CU4]
+  : -1
+  ? !!python/tuple ['You can discard a
+
+      permanent card', 'Discard this permanent
+
+      to cancel a bad effect
+
+      once']
+  : 1
+  ? !!python/tuple ['You can discard a
+
+      permanent card', "When you discard\n -> draw"]
+  : -1
+  ? !!python/tuple ['You can discard a
+
+      permanent card', 'You can discard
+
+      a permanent card']
+  : -1
+  ? !!python/tuple ['You can discard your
+
+      whole hand then discard
+
+      1 ennemy and
+
+      draw 3 cards', Datacenter CU5]
+  : 1
+  ? !!python/tuple ['You can discard your
+
+      whole hand then discard
+
+      1 ennemy and
+
+      draw 3 cards', 'Discard this permanent
+
+      to cancel a bad effect
+
+      once']
+  : -1
+  ? !!python/tuple ['You can discard your
+
+      whole hand then discard
+
+      1 ennemy and
+
+      draw 3 cards', 'When you draw,
+
+      gain Attack 1']
+  : -1
+  ? !!python/tuple ['You can discard your
+
+      whole hand then discard
+
+      1 ennemy and
+
+      draw 3 cards', 'When you pay,
+
+      cost -1 (minimum 1)
+
+      but discard 1']
+  : 1
