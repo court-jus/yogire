@@ -1,0 +1,303 @@
+1:
+    PEC: 3
+    OSC: 1
+    OES: 2
+    EST: 2
+    PE: |
+        When you pay
+         -> draw a card
+    OSE: Attack 3
+    EE: |
+        When you draw
+         -> discard 1
+2:
+    PEC: 3
+    OSC: 1
+    OES: 2
+    EST: 2
+    PE: Datacenter CU5
+    OSE: Draw 2
+    EE: 'All Ennemy: Str +2'
+3:
+    PEC: 3
+    OSC: 1
+    OES: 2
+    EST: 2
+    PE: |
+        Discard 1 card to
+        gain Attack 1
+    OSE: Attack 2
+    EE: Hand Limit -1
+4:
+    PEC: 3
+    OSC: 1
+    OES: 2
+    EST: 2
+    PE: |
+        You can discard
+        a permanent card
+    OSE: Attack 2
+    EE: |
+        When you play a
+        permanent card
+         -> discard 1
+5:
+    PEC: 3
+    OSC: 1
+    OES: 2
+    EST: 2
+    PE: |
+        When you draw
+         -> draw again
+    OSE: Attack 1
+    EE: |
+        When destroyed :
+        top card of laboratory
+        goes to ennemy deck
+6:
+    PEC: 3
+    OSC: 1
+    OES: 2
+    EST: 2
+    PE: Datacenter CU3
+    OSE: |
+        Destroy the smallest
+        ennemy
+    EE: 'All Ennemy: Str +1'
+7:
+    PEC: 3
+    OSC: 1
+    OES: 2
+    EST: 2
+    PE: |
+        When an ennemy is
+        activated: destroy
+        the smalles ennemy
+    OSE: |
+        Remove any permanent
+        card to destroy an
+        ennemy with Str < 5
+    EE: 'All Ennemy: Str +1'
+8:
+    PEC: 3
+    OSC: 1
+    OES: 2
+    EST: 2
+    PE: |
+        When you draw,
+        gain Attack 1
+    OSE: Draw 1
+    EE: Visibility +1
+9:
+    PEC: 3
+    OSC: 1
+    OES: 2
+    EST: 2
+    PE: |
+        Discard this permanent
+        to cancel a bad effect
+        once
+    OSE: Attack 2
+    EE: |
+        When you draw
+         -> Visibility +1
+10:
+    PEC: 3
+    OSC: 1
+    OES: 2
+    EST: 2
+    PE: |
+        When you draw
+         -> draw again
+    OSE: Draw 1
+    EE: Hand Limit -1
+11:
+    PEC: 3
+    OSC: 1
+    OES: 2
+    EST: 2
+    PE: Hand Limit +1
+    OSE: Attack 1
+    EE: |
+        When activated :
+        discard a permanent
+        card
+12:
+    PEC: 3
+    OSC: 1
+    OES: 2
+    EST: 2
+    PE: |
+        When you discard
+         -> draw
+    OSE: Visibility -1
+    EE: 'All Ennemy: Str +2'
+13:
+    PEC: 3
+    OSC: 1
+    OES: 2
+    EST: 2
+    PE: Hand Limit +1
+    OSE: Visibility -1
+    EE: |
+        When you attack :
+         -> Visibility +Enn. Str
+14:
+    PEC: 3
+    OSC: 1
+    OES: 2
+    EST: 2
+    PE: |
+        Next destroyed ennemy
+        goes to your discard.
+        Then discard this.
+    OSE: Draw 2
+    EE: Hand Limit -1
+15:
+    PEC: 3
+    OSC: 1
+    OES: 2
+    EST: 2
+    PE: Hand Limit +1
+    OSE: Draw 2
+    EE: |
+        When you play a
+        permanent card :
+        activate a new ennemy
+16:
+    PEC: 3
+    OSC: 1
+    OES: 2
+    EST: 2
+    PE: Hand Limit +1
+    OSE: Attack 3
+    EE: |
+        When destroyed, a
+        random card from your hand
+        goes to ennemy deck
+17:
+    PEC: 3
+    OSC: 1
+    OES: 2
+    EST: 2
+    PE: |
+        When you pay,
+        cost -1 (minimum 1)
+        but discard 1
+    OSE: |
+        Search ennemy deck for
+        a card to put in hand
+        than shuffle ennemy
+        deck
+    EE: |
+        While active:
+        Visibility +3
+18:
+    PEC: 3
+    OSC: 1
+    OES: 2
+    EST: 2
+    PE: Datacenter CU4
+    OSE: Attack 4
+    EE: |
+        When destroyed :
+        activate 2 ennemies
+19:
+    PEC: 3
+    OSC: 1
+    OES: 2
+    EST: 2
+    PE: Datacenter CU6
+    OSE: Attack 2
+    EE: |
+        When you have a new
+        datacenter:
+        Visibility +2
+20:
+    PEC: 3
+    OSC: 1
+    OES: 2
+    EST: 2
+    PE: |
+        You can discard your
+        whole hand then discard
+        1 ennemy and
+        draw 3 cards
+    OSE: |
+        Choose a card in your
+        discard to take in hand.
+        Then shuffle the discard.
+    EE: Hand Limit -1
+21:
+    PEC: 3
+    OSC: 1
+    OES: 2
+    EST: 2
+    PE: |
+        You can discard a
+        permanent card
+    OSE: |
+        Choose a card in your
+        laboratory then shuffle
+        it
+    EE: |
+        When you attack :
+         -> discard 1
+22:
+    PEC: 3
+    OSC: 1
+    OES: 2
+    EST: 2
+    PE: Datacenter CU5
+    OSE: |
+        Send an ennemy back to
+        ennemy deck then
+        shuffle ennemy deck.
+    EE: |
+        Each effect you play that
+        affects ennemy deck:
+         -> Visibility +1
+23:
+    PEC: 3
+    OSC: 1
+    OES: 2
+    EST: 2
+    PE: Datacenter CU4
+    OSE: Visibility -2
+    EE: 'All Ennemy: Str +1'
+24:
+    PEC: 3
+    OSC: 1
+    OES: 2
+    EST: 2
+    PE: |
+        Before drawing :
+        sort 3
+    OSE: |
+        Play with another card.
+        Pay this card's cost but
+        not the other one's.
+    EE: |
+        Every card drawn over
+        hand limit goes to
+        ennemy deck
+25:
+    PEC: 3
+    OSC: 1
+    OES: 2
+    EST: 2
+    PE: |
+        New ennemy ?
+         -> draw 2, choose 1
+        (other to bottom)
+    OSE: |
+        Look at first ennemy
+        card and choose to put it
+        back on the deck or to
+        the bottom
+    EE: |
+        When you attack :
+         -> discard 1 permanent
+            card
+         -> draw 2
+

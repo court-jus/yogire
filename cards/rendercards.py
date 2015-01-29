@@ -14,7 +14,7 @@ FSIZE = 50
 BLACK = Color('#000')
 
 def drawText(draw, txt, x, y):
-    draw.line([0,y],[750,y])
+    #draw.line([0,y],[750,y])
     if not txt:
         return
     nlines = len([t for t in txt.split('\n') if t])
@@ -24,7 +24,7 @@ def drawText(draw, txt, x, y):
         shift = 0
     draw.text(x, max(0, int(y - shift)), txt)
 
-for k, v in cards.items():
+for k, v in enumerate(cards):
     filename = '/tmp/card{0:0>2}.png'.format(k)
     with Drawing() as draw:
         with Image(width=750, height=1050) as img:
