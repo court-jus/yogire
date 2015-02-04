@@ -74,7 +74,7 @@
 
     activated: destroy
 
-    the smalles ennemy', "When you draw\n -> draw again", "When you draw\n -> draw\
+    the smallest ennemy', "When you draw\n -> draw again", "When you draw\n -> draw\
     \ again", Datacenter CU5, 'Next destroyed ennemy
 
     goes to your discard.
