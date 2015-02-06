@@ -1,109 +1,331 @@
-!!python/unicode 'EE': ["When you attack :\n -> discard 1",
-    Hand Limit -1, "When you draw\n -> discard 1", 'Every card
-    drawn over
-
+"EE":
+- "str": !!int |-
+    0
+  "text": |-
+    When you attack :
+     -> discard 1
+- "str": !!int |-
+    0
+  "text": |-
+    Hand Limit -1
+- "str": !!int |-
+    0
+  "text": |-
+    When you draw
+     -> discard 1
+- "str": !!int |-
+    0
+  "text": |-
+    Every card drawn over
     hand limit goes to
-
-    ennemy deck', 'All Ennemy: Str +1', "When you attack :\n\
-    \ -> discard 1 permanent\n    card\n -> draw 2", "Each effect you play that\n\
-    affects ennemy deck:\n -> Visibility +1", "When you play\
-    \ a\npermanent card\n -> discard 1", 'All Ennemy: Str +2', Visibility +1, 'When
-    you have a new
-
+    ennemy deck
+- "str": !!int |-
+    0
+  "text": |-
+    All Ennemy: Str +1
+- "str": !!int |-
+    0
+  "text": |-
+    When you attack :
+     -> discard 1 permanent
+        card
+     -> draw 2
+- "str": !!int |-
+    0
+  "text": |-
+    Each effect you play that
+    affects ennemy deck:
+     -> Visibility +1
+- "str": !!int |-
+    0
+  "text": |-
+    When you play a
+    permanent card
+     -> discard 1
+- "str": !!int |-
+    0
+  "text": |-
+    All Ennemy: Str +2
+- "str": !!int |-
+    0
+  "text": |-
+    Visibility +1
+- "str": !!int |-
+    0
+  "text": |-
+    When you have a new
     datacenter:
-
-    Visibility +2', 'When activated :
-
+    Visibility +2
+- "str": !!int |-
+    0
+  "text": |-
+    When activated :
     discard a permanent
-
-    card', 'When destroyed :
-
-    activate 2 ennemies', 'When destroyed :
-
+    card
+- "str": !!int |-
+    0
+  "text": |-
+    When destroyed :
+    activate 2 ennemies
+- "str": !!int |-
+    0
+  "text": |-
+    When destroyed :
     top card of laboratory
-
-    goes to ennemy deck', 'When destroyed, a
-
+    goes to ennemy deck
+- "str": !!int |-
+    0
+  "text": |-
+    When destroyed, a
     random card from your hand
-
-    goes to ennemy deck', 'While active:
-
-    Visibility +3', "When you attack :\n -> Visibility +Enn. Str", 'When you play
-    a
-
+    goes to ennemy deck
+- "str": !!int |-
+    0
+  "text": |-
+    While active:
+    Visibility +3
+- "str": !!int |-
+    0
+  "text": |-
+    When you attack :
+     -> Visibility +Enn. Str
+- "str": !!int |-
+    0
+  "text": |-
+    When you play a
     permanent card :
-
-    activate a new ennemy', "When you draw\n -> Visibility +1"]
-!!python/unicode 'OSE': ['Search ennemy deck for
-
+    activate a new ennemy
+- "str": !!int |-
+    0
+  "text": |-
+    When you draw
+     -> Visibility +1
+"OSE":
+- "cost": !!int |-
+    0
+  "text": |-
+    Search ennemy deck for
     a card to put in hand
-
     than shuffle ennemy
-
-    deck', Visibility -2, Attack 4, 'Send an ennemy back to
-
+    deck
+- "cost": !!int |-
+    0
+  "text": |-
+    Visibility -2
+- "cost": !!int |-
+    0
+  "text": |-
+    Attack 4
+- "cost": !!int |-
+    0
+  "text": |-
+    Send an ennemy back to
     ennemy deck then
-
-    shuffle ennemy deck.', 'Choose a card in your
-
+    shuffle ennemy deck.
+- "cost": !!int |-
+    0
+  "text": |-
+    Choose a card in your
     discard to take in hand.
-
-    Then shuffle the discard.', 'Choose a card in your
-
+    Then shuffle the discard.
+- "cost": !!int |-
+    0
+  "text": |-
+    Choose a card in your
     laboratory then shuffle
-
-    it', 'Play with another card.
-
-    Pay this card''s cost but
-
-    not the other one''s.', 'Remove any permanent
-
+    it
+- "cost": !!int |-
+    0
+  "text": |-
+    Play with another card.
+    Pay this card's cost but
+    not the other one's.
+- "cost": !!int |-
+    0
+  "text": |-
+    Remove any permanent
     card to destroy an
-
-    ennemy with Str < 5', Attack 3, 'Look at first ennemy
-
+    ennemy with Str < 5
+- "cost": !!int |-
+    0
+  "text": |-
+    Attack 3
+- "cost": !!int |-
+    0
+  "text": |-
+    Look at first ennemy
     card and choose to put it
-
     back on the deck or to
-
-    the bottom', Visibility -1, 'Destroy the smallest
-
-    ennemy', Draw 2, Attack 3, Attack 2,
-    Attack 1, Draw 1]
-!!python/unicode 'PE': [Datacenter CU6, 'When an ennemy is
-
+    the bottom
+- "cost": !!int |-
+    0
+  "text": |-
+    Visibility -1
+- "cost": !!int |-
+    0
+  "text": |-
+    Destroy the smallest
+    ennemy
+- "cost": !!int |-
+    0
+  "text": |-
+    Draw 2
+- "cost": !!int |-
+    0
+  "text": |-
+    Attack 3
+- "cost": !!int |-
+    0
+  "text": |-
+    Attack 2
+- "cost": !!int |-
+    0
+  "text": |-
+    Attack 1
+- "cost": !!int |-
+    0
+  "text": |-
+    Draw 1
+"PE":
+- "cost": !!int |-
+    0
+  "cu": !!int |-
+    0
+  "text": |-
+    Datacenter CU6
+- "cost": !!int |-
+    0
+  "cu": !!int |-
+    0
+  "text": |-
+    When an ennemy is
     activated: destroy
-
-    the smalles ennemy', "When you draw\n -> draw again", "When you draw\n -> draw\
-    \ again", Datacenter CU5, 'Next destroyed ennemy
-
+    the smalles ennemy
+- "cost": !!int |-
+    0
+  "cu": !!int |-
+    0
+  "text": |-
+    When you draw
+     -> draw again
+- "cost": !!int |-
+    0
+  "cu": !!int |-
+    0
+  "text": |-
+    When you draw
+     -> draw again
+- "cost": !!int |-
+    0
+  "cu": !!int |-
+    0
+  "text": |-
+    Datacenter CU5
+- "cost": !!int |-
+    0
+  "cu": !!int |-
+    0
+  "text": |-
+    Next destroyed ennemy
     goes to your discard.
-
-    Then discard this.', 'When you pay,
-
+    Then discard this.
+- "cost": !!int |-
+    0
+  "cu": !!int |-
+    0
+  "text": |-
+    When you pay,
     cost -1 (minimum 1)
-
-    but discard 1', 'You can discard your
-
+    but discard 1
+- "cost": !!int |-
+    0
+  "cu": !!int |-
+    0
+  "text": |-
+    You can discard your
     whole hand then discard
-
     1 ennemy and
-
-    draw 3 cards', 'When you draw,
-
-    gain Attack 1', "New ennemy ?\n -> draw 2, choose 1\n(other to\
-    \ bottom)", "When you pay\n -> draw a card", 'Discard this permanent
-
+    draw 3 cards
+- "cost": !!int |-
+    0
+  "cu": !!int |-
+    0
+  "text": |-
+    When you draw,
+    gain Attack 1
+- "cost": !!int |-
+    0
+  "cu": !!int |-
+    0
+  "text": |-
+    New ennemy ?
+     -> draw 2, choose 1
+    (other to bottom)
+- "cost": !!int |-
+    0
+  "cu": !!int |-
+    0
+  "text": |-
+    When you pay
+     -> draw a card
+- "cost": !!int |-
+    0
+  "cu": !!int |-
+    0
+  "text": |-
+    Discard this permanent
     to cancel a bad effect
-
-    once', 'You can discard a
-
-    permanent card', 'You can discard
-
-    a permanent card', 'Before drawing :
-
-    sort 3', Datacenter CU4, "When you discard\n -> draw", 'Discard
-    1 card to
-
-    gain Attack 1', Datacenter CU3, Hand
-    Limit +1]
+    once
+- "cost": !!int |-
+    0
+  "cu": !!int |-
+    0
+  "text": |-
+    You can discard a
+    permanent card
+- "cost": !!int |-
+    0
+  "cu": !!int |-
+    0
+  "text": |-
+    You can discard
+    a permanent card
+- "cost": !!int |-
+    0
+  "cu": !!int |-
+    0
+  "text": |-
+    Before drawing :
+    sort 3
+- "cost": !!int |-
+    0
+  "cu": !!int |-
+    0
+  "text": |-
+    Datacenter CU4
+- "cost": !!int |-
+    0
+  "cu": !!int |-
+    0
+  "text": |-
+    When you discard
+     -> draw
+- "cost": !!int |-
+    0
+  "cu": !!int |-
+    0
+  "text": |-
+    Discard 1 card to
+    gain Attack 1
+- "cost": !!int |-
+    0
+  "cu": !!int |-
+    0
+  "text": |-
+    Datacenter CU3
+- "cost": !!int |-
+    0
+  "cu": !!int |-
+    0
+  "text": |-
+    Hand Limit +1
