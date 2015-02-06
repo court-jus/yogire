@@ -1,141 +1,142 @@
 "EE":
 - "str": !!int |-
-    0
+    3
   "text": |-
     When you attack :
      -> discard 1
 - "str": !!int |-
-    0
+    2
   "text": |-
     Hand Limit -1
 - "str": !!int |-
-    0
+    3
   "text": |-
     When you draw
      -> discard 1
 - "str": !!int |-
-    0
+    3
   "text": |-
     Every card drawn over
     hand limit goes to
     ennemy deck
 - "str": !!int |-
-    0
+    2
   "text": |-
     All Ennemy: Str +1
 - "str": !!int |-
-    0
+    2
   "text": |-
     When you attack :
      -> discard 1 permanent
         card
      -> draw 2
 - "str": !!int |-
-    0
+    2
   "text": |-
     Each effect you play that
     affects ennemy deck:
      -> Visibility +1
 - "str": !!int |-
-    0
+    3
   "text": |-
     When you play a
     permanent card
      -> discard 1
 - "str": !!int |-
-    0
+    3
   "text": |-
     All Ennemy: Str +2
 - "str": !!int |-
-    0
+    2
   "text": |-
     Visibility +1
 - "str": !!int |-
-    0
+    4
   "text": |-
     When you have a new
     datacenter:
     Visibility +2
 - "str": !!int |-
-    0
+    1
   "text": |-
     When activated :
     discard a permanent
     card
 - "str": !!int |-
-    0
+    1
   "text": |-
     When destroyed :
     activate 2 ennemies
 - "str": !!int |-
-    0
+    1
   "text": |-
     When destroyed :
     top card of laboratory
     goes to ennemy deck
 - "str": !!int |-
-    0
+    1
   "text": |-
     When destroyed, a
-    random card from your hand
-    goes to ennemy deck
+    random card from your
+    hand goes to ennemy deck
 - "str": !!int |-
-    0
+    2
   "text": |-
     While active:
     Visibility +3
 - "str": !!int |-
-    0
+    5
   "text": |-
     When you attack :
      -> Visibility +Enn. Str
 - "str": !!int |-
-    0
+    2
   "text": |-
     When you play a
     permanent card :
     activate a new ennemy
 - "str": !!int |-
-    0
+    1
   "text": |-
     When you draw
      -> Visibility +1
 "OSE":
 - "cost": !!int |-
-    0
+    2
   "text": |-
     Search ennemy deck for
     a card to put in hand
     than shuffle ennemy
     deck
 - "cost": !!int |-
-    0
+    2
   "text": |-
     Visibility -2
 - "cost": !!int |-
-    0
+    1
   "text": |-
     Attack 4
 - "cost": !!int |-
-    0
+    1
   "text": |-
-    Send an ennemy back to
+    Visibility -1 and
+    send an ennemy back to
     ennemy deck then
     shuffle ennemy deck.
 - "cost": !!int |-
-    0
+    1
   "text": |-
     Choose a card in your
     discard to take in hand.
     Then shuffle the discard.
 - "cost": !!int |-
-    0
+    1
   "text": |-
     Choose a card in your
     laboratory then shuffle
     it
 - "cost": !!int |-
-    0
+    1
   "text": |-
     Play with another card.
     Pay this card's cost but
@@ -143,9 +144,9 @@
 - "cost": !!int |-
     0
   "text": |-
-    Remove any permanent
-    card to destroy an
-    ennemy with Str < 5
+    Discard any permanent
+    card to gain
+    Attack +4
 - "cost": !!int |-
     0
   "text": |-
@@ -171,7 +172,7 @@
   "text": |-
     Draw 2
 - "cost": !!int |-
-    0
+    1
   "text": |-
     Attack 3
 - "cost": !!int |-
@@ -188,90 +189,83 @@
     Draw 1
 "PE":
 - "cost": !!int |-
-    0
+    2
   "cu": !!int |-
     0
   "text": |-
     Datacenter CU6
 - "cost": !!int |-
-    0
+    2
   "cu": !!int |-
-    0
+    3
   "text": |-
     When an ennemy is
     activated: destroy
-    the smalles ennemy
+    the smallest ennemy
 - "cost": !!int |-
-    0
+    1
   "cu": !!int |-
-    0
+    2
   "text": |-
     When you draw
      -> draw again
 - "cost": !!int |-
-    0
-  "cu": !!int |-
-    0
-  "text": |-
-    When you draw
-     -> draw again
-- "cost": !!int |-
-    0
+    2
   "cu": !!int |-
     0
   "text": |-
     Datacenter CU5
 - "cost": !!int |-
-    0
+    1
   "cu": !!int |-
-    0
+    3
   "text": |-
     Next destroyed ennemy
     goes to your discard.
     Then discard this.
 - "cost": !!int |-
-    0
+    2
   "cu": !!int |-
-    0
+    3
   "text": |-
     When you pay,
     cost -1 (minimum 1)
     but discard 1
 - "cost": !!int |-
-    0
+    1
   "cu": !!int |-
-    0
+    3
   "text": |-
     You can discard your
     whole hand then discard
     1 ennemy and
     draw 3 cards
 - "cost": !!int |-
-    0
+    1
   "cu": !!int |-
-    0
+    1
   "text": |-
     When you draw,
     gain Attack 1
 - "cost": !!int |-
-    0
+    1
   "cu": !!int |-
-    0
+    2
   "text": |-
     New ennemy ?
      -> draw 2, choose 1
     (other to bottom)
 - "cost": !!int |-
-    0
+    1
   "cu": !!int |-
-    0
+    1
   "text": |-
     When you pay
      -> draw a card
 - "cost": !!int |-
-    0
+    2
   "cu": !!int |-
-    0
+    1
   "text": |-
     Discard this permanent
     to cancel a bad effect
@@ -279,46 +273,39 @@
 - "cost": !!int |-
     0
   "cu": !!int |-
-    0
+    1
   "text": |-
     You can discard a
     permanent card
 - "cost": !!int |-
-    0
+    2
   "cu": !!int |-
-    0
-  "text": |-
-    You can discard
-    a permanent card
-- "cost": !!int |-
-    0
-  "cu": !!int |-
-    0
+    2
   "text": |-
     Before drawing :
     sort 3
 - "cost": !!int |-
-    0
+    2
   "cu": !!int |-
     0
   "text": |-
     Datacenter CU4
 - "cost": !!int |-
-    0
+    1
   "cu": !!int |-
-    0
+    1
   "text": |-
     When you discard
      -> draw
 - "cost": !!int |-
     0
   "cu": !!int |-
-    0
+    1
   "text": |-
     Discard 1 card to
     gain Attack 1
 - "cost": !!int |-
-    0
+    1
   "cu": !!int |-
     0
   "text": |-
@@ -326,6 +313,6 @@
 - "cost": !!int |-
     0
   "cu": !!int |-
-    0
+    2
   "text": |-
     Hand Limit +1

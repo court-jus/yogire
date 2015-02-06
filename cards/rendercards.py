@@ -35,9 +35,9 @@ for k, v in enumerate(cards):
             draw.font = 'Robofan.otf'
             draw.gravity = 'north_west'
             draw.font_size = FSIZE
-            drawText(draw, v.get('PE', ''), 10, 150)
-            drawText(draw, v.get('OSE', ''), 10, 525)
-            drawText(draw, v.get('EE', ''), 10, 900)
+            drawText(draw, v['PE']['text'], 10, 150)
+            drawText(draw, v['OSE']['text'], 10, 525)
+            drawText(draw, v['EE']['text'], 10, 900)
             draw(img)
             img.save(filename=filename)
         

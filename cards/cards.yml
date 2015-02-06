@@ -1,494 +1,474 @@
-- "EE": |-
-    When you attack :
-     -> discard 1
-  "OSE": |-
-    Send an ennemy back to
-    ennemy deck then
-    shuffle ennemy deck.
-  "PE": |-
-    When you draw
-     -> draw again
-- "EE": |-
-    Hand Limit -1
-  "OSE": |-
-    Attack 4
-  "PE": |-
-    When you draw
-     -> draw again
-- "EE": |-
-    When you draw
-     -> discard 1
-  "OSE": |-
-    Visibility -2
-  "PE": |-
-    Datacenter CU6
-- "EE": |-
-    All Ennemy: Str +1
-  "OSE": |-
-    Search ennemy deck for
-    a card to put in hand
-    than shuffle ennemy
-    deck
-  "PE": |-
-    When an ennemy is
-    activated: destroy
-    the smalles ennemy
-- "EE": |-
-    Every card drawn over
-    hand limit goes to
-    ennemy deck
-  "OSE": |-
-    Play with another card.
-    Pay this card's cost but
-    not the other one's.
-  "PE": |-
-    When you pay,
-    cost -1 (minimum 1)
-    but discard 1
-- "EE": |-
-    When you play a
-    permanent card
-     -> discard 1
-  "OSE": |-
-    Choose a card in your
-    laboratory then shuffle
-    it
-  "PE": |-
-    Datacenter CU5
-- "EE": |-
-    Visibility +1
-  "OSE": |-
-    Choose a card in your
-    discard to take in hand.
-    Then shuffle the discard.
-  "PE": |-
-    When you pay,
-    cost -1 (minimum 1)
-    but discard 1
-- "EE": |-
-    Each effect you play that
-    affects ennemy deck:
-     -> Visibility +1
-  "OSE": |-
-    Play with another card.
-    Pay this card's cost but
-    not the other one's.
-  "PE": |-
-    Next destroyed ennemy
-    goes to your discard.
-    Then discard this.
-- "EE": |-
-    All Ennemy: Str +2
-  "OSE": |-
-    Choose a card in your
-    laboratory then shuffle
-    it
-  "PE": |-
-    Datacenter CU5
-- "EE": |-
-    Each effect you play that
-    affects ennemy deck:
-     -> Visibility +1
-  "OSE": |-
-    Choose a card in your
-    discard to take in hand.
-    Then shuffle the discard.
-  "PE": |-
-    Next destroyed ennemy
-    goes to your discard.
-    Then discard this.
-- "EE": |-
-    When you play a
-    permanent card
-     -> discard 1
-  "OSE": |-
-    Look at first ennemy
-    card and choose to put it
-    back on the deck or to
-    the bottom
-  "PE": |-
-    When you draw,
-    gain Attack 1
-- "EE": |-
-    Visibility +1
-  "OSE": |-
-    Attack 3
-  "PE": |-
-    Discard this permanent
-    to cancel a bad effect
-    once
-- "EE": |-
-    When you attack :
-     -> discard 1 permanent
-        card
-     -> draw 2
-  "OSE": |-
-    Remove any permanent
-    card to destroy an
-    ennemy with Str < 5
-  "PE": |-
-    Before drawing :
-    sort 3
-- "EE": |-
-    All Ennemy: Str +2
-  "OSE": |-
-    Look at first ennemy
-    card and choose to put it
-    back on the deck or to
-    the bottom
-  "PE": |-
-    When you pay
-     -> draw a card
-- "EE": |-
-    When you attack :
-     -> discard 1 permanent
-        card
-     -> draw 2
-  "OSE": |-
-    Attack 3
-  "PE": |-
-    You can discard a
-    permanent card
-- "EE": |-
-    When destroyed, a
-    random card from your hand
-    goes to ennemy deck
-  "OSE": |-
-    Remove any permanent
-    card to destroy an
-    ennemy with Str < 5
-  "PE": |-
-    Datacenter CU4
-- "EE": |-
-    While active:
-    Visibility +3
-  "OSE": |-
-    Look at first ennemy
-    card and choose to put it
-    back on the deck or to
-    the bottom
-  "PE": |-
-    When you draw,
-    gain Attack 1
-- "EE": |-
-    When you have a new
-    datacenter:
-    Visibility +2
-  "OSE": |-
-    Attack 3
-  "PE": |-
-    New ennemy ?
-     -> draw 2, choose 1
-    (other to bottom)
-- "EE": |-
-    When destroyed :
-    top card of laboratory
-    goes to ennemy deck
-  "OSE": |-
-    Remove any permanent
-    card to destroy an
-    ennemy with Str < 5
-  "PE": |-
-    When you draw,
-    gain Attack 1
-- "EE": |-
-    When destroyed :
-    top card of laboratory
-    goes to ennemy deck
-  "OSE": |-
-    Draw 2
-  "PE": |-
-    When you pay
-     -> draw a card
-- "EE": |-
-    When destroyed :
-    activate 2 ennemies
-  "OSE": |-
-    Destroy the smallest
-    ennemy
-  "PE": |-
-    You can discard
-    a permanent card
-- "EE": |-
-    When destroyed :
-    activate 2 ennemies
-  "OSE": |-
-    Visibility -1
-  "PE": |-
-    You can discard
-    a permanent card
-- "EE": |-
-    While active:
-    Visibility +3
-  "OSE": |-
-    Draw 2
-  "PE": |-
-    You can discard a
-    permanent card
-- "EE": |-
-    While active:
-    Visibility +3
-  "OSE": |-
-    Destroy the smallest
-    ennemy
-  "PE": |-
-    New ennemy ?
-     -> draw 2, choose 1
-    (other to bottom)
-- "EE": |-
-    When destroyed, a
-    random card from your hand
-    goes to ennemy deck
-  "OSE": |-
-    Visibility -1
-  "PE": |-
-    Discard this permanent
-    to cancel a bad effect
-    once
-- "EE": |-
-    When activated :
-    discard a permanent
-    card
-  "OSE": |-
-    Draw 2
-  "PE": |-
-    You can discard
-    a permanent card
-- "EE": |-
-    When activated :
-    discard a permanent
-    card
-  "OSE": |-
-    Destroy the smallest
-    ennemy
-  "PE": |-
-    Before drawing :
-    sort 3
-- "EE": |-
-    When you have a new
-    datacenter:
-    Visibility +2
-  "OSE": |-
-    Visibility -1
-  "PE": |-
-    Datacenter CU4
-- "EE": |-
-    When activated :
-    discard a permanent
-    card
-  "OSE": |-
-    Draw 2
-  "PE": |-
-    You can discard your
-    whole hand then discard
-    1 ennemy and
-    draw 3 cards
-- "EE": |-
-    When destroyed :
-    top card of laboratory
-    goes to ennemy deck
-  "OSE": |-
-    Destroy the smallest
-    ennemy
-  "PE": |-
-    Datacenter CU4
-- "EE": |-
-    When destroyed :
-    activate 2 ennemies
-  "OSE": |-
-    Visibility -1
-  "PE": |-
-    Discard this permanent
-    to cancel a bad effect
-    once
-- "EE": |-
-    When activated :
-    discard a permanent
-    card
-  "OSE": |-
-    Attack 2
-  "PE": |-
-    Before drawing :
-    sort 3
-- "EE": |-
-    When destroyed :
-    activate 2 ennemies
-  "OSE": |-
-    Attack 3
-  "PE": |-
-    New ennemy ?
-     -> draw 2, choose 1
-    (other to bottom)
-- "EE": |-
-    When destroyed, a
-    random card from your hand
-    goes to ennemy deck
-  "OSE": |-
-    Attack 2
-  "PE": |-
-    You can discard a
-    permanent card
-- "EE": |-
-    When destroyed, a
-    random card from your hand
-    goes to ennemy deck
-  "OSE": |-
-    Attack 3
-  "PE": |-
-    You can discard your
-    whole hand then discard
-    1 ennemy and
-    draw 3 cards
-- "EE": |-
-    While active:
-    Visibility +3
-  "OSE": |-
-    Attack 2
-  "PE": |-
-    When you pay
-     -> draw a card
-- "EE": |-
-    When you have a new
-    datacenter:
-    Visibility +2
-  "OSE": |-
-    Attack 3
-  "PE": |-
-    You can discard your
-    whole hand then discard
-    1 ennemy and
-    draw 3 cards
-- "EE": |-
-    When you have a new
-    datacenter:
-    Visibility +2
-  "OSE": |-
-    Attack 2
-  "PE": |-
-    When you discard
-     -> draw
-- "EE": |-
-    When destroyed :
-    top card of laboratory
-    goes to ennemy deck
-  "OSE": |-
-    Attack 3
-  "PE": |-
-    Discard 1 card to
-    gain Attack 1
-- "EE": |-
-    When you attack :
-     -> Visibility +Enn. Str
-  "OSE": |-
-    Attack 2
-  "PE": |-
-    Discard 1 card to
-    gain Attack 1
-- "EE": |-
-    When you attack :
-     -> Visibility +Enn. Str
-  "OSE": |-
-    Attack 3
-  "PE": |-
-    Discard 1 card to
-    gain Attack 1
-- "EE": |-
-    When you play a
-    permanent card :
-    activate a new ennemy
-  "OSE": |-
-    Attack 1
-  "PE": |-
-    Datacenter CU3
-- "EE": |-
-    When you play a
-    permanent card :
-    activate a new ennemy
-  "OSE": |-
-    Attack 1
-  "PE": |-
-    When you discard
-     -> draw
-- "EE": |-
-    When you attack :
-     -> Visibility +Enn. Str
-  "OSE": |-
-    Attack 1
-  "PE": |-
-    Datacenter CU3
-- "EE": |-
-    When you draw
-     -> Visibility +1
-  "OSE": |-
-    Attack 1
-  "PE": |-
-    When you discard
-     -> draw
-- "EE": |-
-    When you play a
-    permanent card :
-    activate a new ennemy
-  "OSE": |-
-    Attack 1
-  "PE": |-
-    Datacenter CU3
-- "EE": |-
-    When you play a
-    permanent card :
-    activate a new ennemy
-  "OSE": |-
-    Attack 1
-  "PE": |-
-    Discard 1 card to
-    gain Attack 1
-- "EE": |-
-    When you draw
-     -> Visibility +1
-  "OSE": |-
-    Draw 1
-  "PE": |-
-    Datacenter CU3
-- "EE": |-
-    When you draw
-     -> Visibility +1
-  "OSE": |-
-    Draw 1
-  "PE": |-
-    When you discard
-     -> draw
-- "EE": |-
-    When you play a
-    permanent card :
-    activate a new ennemy
-  "OSE": |-
-    Draw 1
-  "PE": |-
-    Hand Limit +1
-- "EE": |-
-    When you draw
-     -> Visibility +1
-  "OSE": |-
-    Draw 1
-  "PE": |-
-    Hand Limit +1
-- "EE": |-
-    When you attack :
-     -> Visibility +Enn. Str
-  "OSE": |-
-    Draw 1
-  "PE": |-
-    Hand Limit +1
-- "EE": |-
-    When you draw
-     -> Visibility +1
-  "OSE": |-
-    Draw 1
-  "PE": |-
-    Hand Limit +1
-- "EE": |-
-    When you attack :
-     -> Visibility +Enn. Str
-  "OSE": |-
-    Draw 1
-  "PE": |-
-    Hand Limit +1
+- "EE":
+    "str": !!int |-
+      3
+    "text": |-
+      Every card drawn over
+      hand limit goes to
+      ennemy deck
+  "OSE":
+    "cost": !!int |-
+      1
+    "text": |-
+      Visibility -1 and
+      send an ennemy back to
+      ennemy deck then
+      shuffle ennemy deck.
+  "PE":
+    "cost": !!int |-
+      2
+    "cu": !!int |-
+      3
+    "text": |-
+      When an ennemy is
+      activated: destroy
+      the smallest ennemy
+- "EE":
+    "str": !!int |-
+      3
+    "text": |-
+      When you attack :
+       -> discard 1
+  "OSE":
+    "cost": !!int |-
+      1
+    "text": |-
+      Attack 4
+  "PE":
+    "cost": !!int |-
+      2
+    "cu": !!int |-
+      0
+    "text": |-
+      Datacenter CU6
+- "EE":
+    "str": !!int |-
+      3
+    "text": |-
+      When you draw
+       -> discard 1
+  "OSE":
+    "cost": !!int |-
+      2
+    "text": |-
+      Visibility -2
+  "PE":
+    "cost": !!int |-
+      1
+    "cu": !!int |-
+      2
+    "text": |-
+      When you draw
+       -> draw again
+- "EE":
+    "str": !!int |-
+      2
+    "text": |-
+      All Ennemy: Str +1
+  "OSE":
+    "cost": !!int |-
+      2
+    "text": |-
+      Search ennemy deck for
+      a card to put in hand
+      than shuffle ennemy
+      deck
+  "PE": &id001
+    "cost": !!int |-
+      1
+    "cu": !!int |-
+      3
+    "text": |-
+      Next destroyed ennemy
+      goes to your discard.
+      Then discard this.
+- "EE":
+    "str": !!int |-
+      2
+    "text": |-
+      Hand Limit -1
+  "OSE": &id002
+    "cost": !!int |-
+      1
+    "text": |-
+      Play with another card.
+      Pay this card's cost but
+      not the other one's.
+  "PE": &id003
+    "cost": !!int |-
+      2
+    "cu": !!int |-
+      0
+    "text": |-
+      Datacenter CU5
+- "EE": &id010
+    "str": !!int |-
+      2
+    "text": |-
+      Visibility +1
+  "OSE": &id004
+    "cost": !!int |-
+      1
+    "text": |-
+      Choose a card in your
+      laboratory then shuffle
+      it
+  "PE": *id001
+- "EE": &id013
+    "str": !!int |-
+      3
+    "text": |-
+      When you play a
+      permanent card
+       -> discard 1
+  "OSE": &id007
+    "cost": !!int |-
+      1
+    "text": |-
+      Choose a card in your
+      discard to take in hand.
+      Then shuffle the discard.
+  "PE": &id005
+    "cost": !!int |-
+      2
+    "cu": !!int |-
+      3
+    "text": |-
+      When you pay,
+      cost -1 (minimum 1)
+      but discard 1
+- "EE": &id011
+    "str": !!int |-
+      3
+    "text": |-
+      All Ennemy: Str +2
+  "OSE": *id002
+  "PE": *id003
+- "EE": &id006
+    "str": !!int |-
+      2
+    "text": |-
+      When you attack :
+       -> discard 1 permanent
+          card
+       -> draw 2
+  "OSE": *id004
+  "PE": *id005
+- "EE": *id006
+  "OSE": *id007
+  "PE": &id016
+    "cost": !!int |-
+      1
+    "cu": !!int |-
+      1
+    "text": |-
+      When you draw,
+      gain Attack 1
+- "EE": &id008
+    "str": !!int |-
+      2
+    "text": |-
+      Each effect you play that
+      affects ennemy deck:
+       -> Visibility +1
+  "OSE": &id012
+    "cost": !!int |-
+      0
+    "text": |-
+      Look at first ennemy
+      card and choose to put it
+      back on the deck or to
+      the bottom
+  "PE": &id009
+    "cost": !!int |-
+      1
+    "cu": !!int |-
+      1
+    "text": |-
+      When you pay
+       -> draw a card
+- "EE": *id008
+  "OSE": &id014
+    "cost": !!int |-
+      0
+    "text": |-
+      Attack 3
+  "PE": *id009
+- "EE": *id010
+  "OSE": &id015
+    "cost": !!int |-
+      0
+    "text": |-
+      Discard any permanent
+      card to gain
+      Attack +4
+  "PE": &id019
+    "cost": !!int |-
+      0
+    "cu": !!int |-
+      1
+    "text": |-
+      You can discard a
+      permanent card
+- "EE": *id011
+  "OSE": *id012
+  "PE": &id029
+    "cost": !!int |-
+      2
+    "cu": !!int |-
+      2
+    "text": |-
+      Before drawing :
+      sort 3
+- "EE": *id013
+  "OSE": *id014
+  "PE": &id022
+    "cost": !!int |-
+      2
+    "cu": !!int |-
+      1
+    "text": |-
+      Discard this permanent
+      to cancel a bad effect
+      once
+- "EE": &id020
+    "str": !!int |-
+      1
+    "text": |-
+      When destroyed :
+      top card of laboratory
+      goes to ennemy deck
+  "OSE": *id015
+  "PE": &id018
+    "cost": !!int |-
+      1
+    "cu": !!int |-
+      2
+    "text": |-
+      New ennemy ?
+       -> draw 2, choose 1
+      (other to bottom)
+- "EE": &id017
+    "str": !!int |-
+      2
+    "text": |-
+      While active:
+      Visibility +3
+  "OSE": *id012
+  "PE": *id016
+- "EE": *id017
+  "OSE": *id014
+  "PE": &id030
+    "cost": !!int |-
+      1
+    "cu": !!int |-
+      3
+    "text": |-
+      You can discard your
+      whole hand then discard
+      1 ennemy and
+      draw 3 cards
+- "EE": &id024
+    "str": !!int |-
+      1
+    "text": |-
+      When activated :
+      discard a permanent
+      card
+  "OSE": *id015
+  "PE": *id018
+- "EE": &id028
+    "str": !!int |-
+      1
+    "text": |-
+      When destroyed :
+      activate 2 ennemies
+  "OSE": &id021
+    "cost": !!int |-
+      0
+    "text": |-
+      Draw 2
+  "PE": *id019
+- "EE": *id020
+  "OSE": &id023
+    "cost": !!int |-
+      0
+    "text": |-
+      Destroy the smallest
+      ennemy
+  "PE": *id019
+- "EE": &id027
+    "str": !!int |-
+      4
+    "text": |-
+      When you have a new
+      datacenter:
+      Visibility +2
+  "OSE": &id025
+    "cost": !!int |-
+      0
+    "text": |-
+      Visibility -1
+  "PE": &id026
+    "cost": !!int |-
+      2
+    "cu": !!int |-
+      0
+    "text": |-
+      Datacenter CU4
+- "EE": &id031
+    "str": !!int |-
+      1
+    "text": |-
+      When destroyed, a
+      random card from your
+      hand goes to ennemy deck
+  "OSE": *id021
+  "PE": *id022
+- "EE": *id020
+  "OSE": *id023
+  "PE": *id009
+- "EE": *id024
+  "OSE": *id025
+  "PE": *id026
+- "EE": *id027
+  "OSE": *id021
+  "PE": *id022
+- "EE": *id028
+  "OSE": *id023
+  "PE": *id016
+- "EE": *id020
+  "OSE": *id025
+  "PE": *id029
+- "EE": *id028
+  "OSE": *id021
+  "PE": *id026
+- "EE": *id027
+  "OSE": *id023
+  "PE": *id030
+- "EE": *id031
+  "OSE": *id025
+  "PE": *id029
+- "EE": *id028
+  "OSE": &id032
+    "cost": !!int |-
+      0
+    "text": |-
+      Attack 2
+  "PE": *id030
+- "EE": *id017
+  "OSE": &id033
+    "cost": !!int |-
+      1
+    "text": |-
+      Attack 3
+  "PE": *id018
+- "EE": *id017
+  "OSE": *id032
+  "PE": &id034
+    "cost": !!int |-
+      1
+    "cu": !!int |-
+      1
+    "text": |-
+      When you discard
+       -> draw
+- "EE": *id024
+  "OSE": *id033
+  "PE": *id034
+- "EE": *id031
+  "OSE": *id032
+  "PE": *id034
+- "EE": *id031
+  "OSE": *id033
+  "PE": *id034
+- "EE": *id027
+  "OSE": *id032
+  "PE": &id035
+    "cost": !!int |-
+      1
+    "cu": !!int |-
+      0
+    "text": |-
+      Datacenter CU3
+- "EE": *id024
+  "OSE": *id033
+  "PE": *id035
+- "EE": &id041
+    "str": !!int |-
+      2
+    "text": |-
+      When you play a
+      permanent card :
+      activate a new ennemy
+  "OSE": *id032
+  "PE": *id035
+- "EE": &id036
+    "str": !!int |-
+      1
+    "text": |-
+      When you draw
+       -> Visibility +1
+  "OSE": *id033
+  "PE": *id035
+- "EE": &id038
+    "str": !!int |-
+      5
+    "text": |-
+      When you attack :
+       -> Visibility +Enn. Str
+  "OSE": &id037
+    "cost": !!int |-
+      0
+    "text": |-
+      Attack 1
+  "PE": *id035
+- "EE": *id036
+  "OSE": *id037
+  "PE": &id039
+    "cost": !!int |-
+      0
+    "cu": !!int |-
+      2
+    "text": |-
+      Hand Limit +1
+- "EE": *id038
+  "OSE": *id037
+  "PE": *id039
+- "EE": *id038
+  "OSE": *id037
+  "PE": &id040
+    "cost": !!int |-
+      0
+    "cu": !!int |-
+      1
+    "text": |-
+      Discard 1 card to
+      gain Attack 1
+- "EE": *id036
+  "OSE": *id037
+  "PE": *id040
+- "EE": *id041
+  "OSE": *id037
+  "PE": *id039
+- "EE": *id038
+  "OSE": &id042
+    "cost": !!int |-
+      0
+    "text": |-
+      Draw 1
+  "PE": *id040
+- "EE": *id036
+  "OSE": *id042
+  "PE": *id040
+- "EE": *id038
+  "OSE": *id042
+  "PE": *id039
+- "EE": *id041
+  "OSE": *id042
+  "PE": *id040
+- "EE": *id041
+  "OSE": *id042
+  "PE": *id039
+- "EE": *id036
+  "OSE": *id042
+  "PE": *id039
