@@ -12,9 +12,12 @@ with open('cards.yml', 'r') as fp:
 
 FSIZE = 50
 BLACK = Color('#000')
+COSTS_X = 650
+COSTS_FSIZE = 80
 
 def drawText(draw, txt, x, y):
     #draw.line([0,y],[750,y])
+    txt = unicode(txt)
     if not txt:
         return
     nlines = len([t for t in txt.split('\n') if t])
@@ -38,6 +41,11 @@ for k, v in enumerate(cards):
             drawText(draw, v['PE']['text'], 10, 150)
             drawText(draw, v['OSE']['text'], 10, 525)
             drawText(draw, v['EE']['text'], 10, 900)
+            draw.font_size = COSTS_FSIZE
+            drawText(draw, v['PE']['cost'], COSTS_X, 50)
+            drawText(draw, v['PE']['cu'], COSTS_X, 200)
+            drawText(draw, v['EE']['str'], COSTS_X, 900)
+            drawText(draw, v['OSE']['cost'], COSTS_X, 525)
             draw(img)
             img.save(filename=filename)
         

@@ -321,7 +321,8 @@
     "text": |-
       When destroyed, a
       random card from your
-      hand goes to ennemy deck
+      hand goes to ennemy
+      deck
   "OSE": *id021
   "PE": *id022
 - "EE": *id020
